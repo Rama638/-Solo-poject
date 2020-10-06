@@ -1,0 +1,28 @@
+body {
+	background-image:url(https://www.thinkright.me/wp-content/uploads/2020/04/Untitled-design-2020-04-01T195349.305.jpg);
+
+}
+
+.para1 {
+	background: white;
+	width: 5%;
+	padding: 4%;
+    margin:1px auto;
+    font-family: calibri;
+
+}
+
+p {
+	font-size: 25px;
+	color:black;
+}
+
+#conten1 {
+	background: white;
+	width: 25%;
+    font-family: calibri;
+}
+
+.section2 {
+	background-image:url(https://specials-images.forbesimg.com/imageserve/1158260144/960x0.jpg?fit=scale);
+}
