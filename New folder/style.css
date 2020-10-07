@@ -22,7 +22,33 @@ p {
 	width: 25%;
     font-family: calibri;
 }
+.sign-up-F {
+	background: #fff;
+	width: 200px;
+	text-align: inherit;
+}
 
-.section2 {
-	background-image:url(https://specials-images.forbesimg.com/imageserve/1158260144/960x0.jpg?fit=scale);
+.sign-up-F h1 {
+ color:#6B8E23;
+ margin-bottom: 30px;
+}
+
+.input-b {
+	border-radius: 20px;
+	padding: 10px;
+	margin: 10px 0;
+	width: 80%;
+	border: 1px;
+}
+button {
+	color : #fff;
+	width: 80%;
+	padding: 10px;
+	border-radius: 20px;
+	font-size: 15px;
+	border:none;
+}
+.sign-up-b {
+	background-color:#808000 ;
+
 }
