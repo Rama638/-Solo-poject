@@ -1,10 +1,14 @@
 
+$("#hide0").click(function(){
+$("#content0").hide();	
+});
 
 $("#hide1").click(function(){
-$("#conten1").hide();	
+$("#content1").hide();	
 });
 
-$("#show1").click(function(){
-$("#content").append(co);
-$("#content").show();	
+$("#hide2").click(function(){
+$("#content2").hide();
 });
+
+

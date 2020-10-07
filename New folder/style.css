@@ -1,15 +1,33 @@
 body {
 	background-image:url(https://www.thinkright.me/wp-content/uploads/2020/04/Untitled-design-2020-04-01T195349.305.jpg);
+	background-repeat: no-repeat;
+    background-size: 1400px 800px;
+    background-position: top;
+
+}
+.para1 {
+	background: white;
+	width: 3%;
+    margin:2px auto;
+    font-family: Impact, Charcoal, sans-serif;
+    width: 200px;
+    height: 100px;
+    background:white ;
+    position: relative;
+    animation: theFirst 5s 1;
+    animation-direction:alternate;
 
 }
 
-.para1 {
-	background: white;
-	width: 5%;
-	padding: 4%;
-    margin:1px auto;
-    font-family: calibri;
-
+@keyframes theFirst {
+  0%   {background:white ; left: 0px; top: 0px;}
+  25%  {background: yellow; left: 300px; top: 0px;}
+  50%  {background:#D2691E ; left: 300px; top: 200px;}
+  75%  {background:#6B8E23; left: 0px; top: 300px;}
+  100% {background: white; left: 0px; top: 0px;}
+}
+.intro {
+	color:#D2B48C;
 }
 
 p {
@@ -17,11 +35,6 @@ p {
 	color:black;
 }
 
-#conten1 {
-	background: white;
-	width: 25%;
-    font-family: calibri;
-}
 .sign-up-F {
 	background: #fff;
 	width: 200px;
@@ -40,15 +53,29 @@ p {
 	width: 80%;
 	border: 1px;
 }
-button {
-	color : #fff;
-	width: 80%;
-	padding: 10px;
-	border-radius: 20px;
-	font-size: 15px;
-	border:none;
-}
+
 .sign-up-b {
 	background-color:#808000 ;
+	border-radius: 33px;
+	text-align: center;
+	width: 80%;
+	padding: 14px 28px;
+	border: none;
+}
 
+#content0 {
+	background: white;
+	width: 25%;
+    font-family: calibri;
+}
+
+#content1 {
+	background: white;
+	width: 25%;
+    font-family: calibri;
+}
+#content2{
+   background: white;
+	width: 25%;
+    font-family: calibri;
 }
